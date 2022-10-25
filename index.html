@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>KEYTRUDA</title>
+        
+        
+        <style>
+            body
+            {
+                margin: 0;
+                padding: 0;
+                font-family: Arial;
+                padding-bottom: 50px;
+            }
+            header
+            {
+                display: flex;
+                justify-content: space-between;
+                margin: 10vw;
+            }
+
+            header, .content1, .content2, .content3, .content4, .content5, .content6, footer
+            {
+                margin-left: 70px;
+                margin-right: 70px;
+            }
+
+            .content3
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .content3 .content3-1, .content3 .content3-1 div
+            {
+                display: flex;
+                align-items: center;
+                
+            }
+
+            .content3 .content3-1
+            {
+                width: 60vw;
+                justify-content: space-between;
+            }
+            .content3 .content3-1 div
+            {
+                justify-content: space-between;
+                width: 40vw;
+                
+            }
+            
+            
+            table,th,td
+            {
+                border:2px solid green;
+                border-collapse: collapse;
+                font-size: 1.3vw;
+                font-weight: bold;
+            }
+
+            th,td
+            {
+                padding: 2vw 1vw 3vw 1.5vw;
+            }
+
+            @media (max-width : 600px) {
+
+                header, .content1, .content2, .content3, .content4, .content5, .content6, footer
+            {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            
+            
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <img style="width:40vw; height: 18vw;" src="Images/3.png" alt="Image"> 
+            <img style="width:10vw; height: 25vw; margin-right: 30px;" src="Images/2.png" alt="Image">
+        </header>
+
+        <img style="width: 100%; height: 40vw;" src="Images/1.png" alt="Image">
+        
+        <div class="content1">
+            <p style="color: rgb(0,111,54); font-size: 3vw; font-weight: bold;"> Bonjour Docteur, </p>
+            <p style="color: rgb(88,89,91); font-size: 2.3vw; font-weight: bold;">
+                Nous avons le plaisir de partager avec vous <span style="color: rgb(2,111,54);">une option de traitement du cancer 
+                du sein avancé recommandée par le National Comprehensive Cancer Network<sup>®</sup>
+                (NCCN <sup>®</sup>)</span>
+            </p>
+            <p style="color: rgb(88,89,91); font-size: 2.3vw; font-weight: bold; text-align: justify;"> Le pembrolizumab (KEYTRUDA<sup>®</sup>), en association avec la chimiothérapie, 
+                est indiqué pour le traitement des patients atteints de cancers localement 
+                récidivant, non résécable ou métastatique, dont les tumeurs expriment le PD-L1 
+                avec un score positif combiné [CPS] ≥10, tel que déterminé par une méthode 
+                approuvée par la FDA. Déterminé par un test approuvé par la FDA.
+            </p>
+        </div>
+
+        <div class="content2" style="display: flex; flex-direction: column; ">
+            <div style="display: flex; justify-content: space-around; margin-top: 5vw; ">
+                <img style="width: 40vw; " src="Images/6.png" alt="Images">
+                <img style="width: 40vw;" src="Images/7.png" alt="Images">
+            </div>
+
+            <img style="width: 100%; margin-top: 10vw; align-self: center;" src="Images/8.png" alt="">
+        </div>
+
+        <div class="content3" style="margin-top: 2.5vw;">
+            <h1 style="color: rgb(0,113,55); font-size: 2.3vw;"> 1 L Combination Treatment Option With Pembrolizumab (KEYTRUDA)<sup>1,a,b</sup> </h1>
+            <div class="content3-1" style="color: rgb(0,113,55);">
+                <h1 style="font-size: 2vw;">PD-L1 (CPS ≥10) </h1>
+                <h1 style="font-size: 2vw;">|</h1>
+                <div>
+                <h1 style="font-size: 2vw;"> CATEGORY 1 &</h1>
+                <img  style="width: 20vw;" src="Images/4.png" alt="Image">
+                </div>
+            </div>
+        </div>
+
+        <div class="content4" style="display: flex; flex-direction: column; align-items: center; margin-top: 5vw;">
+            <p style="color: rgb(0,113,55); font-size: 2.3vw; font-weight: bold;">
+                NCCN Guidelines : Targeted Therapies and Associated Biomarker Testing 
+                for Recurrent or Metastatic Breast Cancer<sup>1</sup>
+            </p>
+
+            <table style="margin-top: 5vw; width:100%; margin-bottom: 2.5vw;">
+                <tr>
+                    <th colspan="6" style="background-color: rgb(71, 194, 59); color: white; text-align: left; font-size: 2.3vw; padding-left: 2vw; height: 5vw;">Biomarkers Associated with FDA-Approved Therapies</th>
+                </tr>
+
+                <tr>
+                    <td style="height: 10vw;">Breast Cancer Subtype</td>
+                    <td>Biomarker</td>
+                    <td>Detection</td>
+                    <td>FDA-Approved Agents</td>
+                    <td>NCCN Category of 
+                        Evidence</td>
+                    <td>NCCN Category of 
+                        Evidence</td>
+                </tr>
+                <tr>
+                    <td>TNBC</td>
+                    <td>
+                        <ul> <li>PD-L1 expression Threshold for positivity combined positive score ≥10</li> </ul> 
+                    </td>
+                    <td>IHC</td>
+                    <td> 
+                        <ul>
+                            <li>Pembrolizumab + chemotherapy (albumin-bound paclitaxel, paclitaxel,or gemcitabine and carboplatin)</li> </td>
+                        </ul>
+                        <td> <img style="width: 10vw;" src="Images/9.png" alt="Image"> </td>
+                    <td>
+                        Preferred first-line therapy
+                        <img style="width: 10vw; margin-top: 2vw;" src="Images/4.png" alt="Image">
+                    </td>
+                </tr>
+            </table>
+           
+        </div>
+        
+        <div class="content5" style="color: rgb(0,113,55); font-size: 2.3vw; ">
+            Preferred Regimens:<br/>
+            Pembrolizumab + chemotherapy (albumin-bound paclitaxel, <br>
+            paclitaxel, or gemcitabine and carboplatin) <br/>
+            - Pembrolizumab 200 mg IV day 1 (given every 21 days)<br/>
+            - Albumin-bound paclitaxel 100 mg/m<sup>2</sup>days 1, 8, 15 (given every 28 days)
+            <br> OR<br/>
+            Paclitaxel 90 mg/m<sup>2</sup> IV days 1, 8, 15 (given every 28 days)
+            <br> OR<br/>
+            - Pembrolizumab 200 mg IV day 1 <br>
+            - Gemcitabine 1000 mg/m<sup>2</sup> 
+            IV days 1 and 8 <br>
+            - Carboplatin AUC 2 IV days 1 and 8 <br>
+            - Given every 21 day <br>
+        </div>
+
+        <div class="content6" style="margin-top: 7vw; color:rgb(88,89,91); font-weight: bold; font-size: 1.2vw;">
+            
+             Intervention préférée = Intervention qui est basée sur l'efficacité, la sécurité et les preuves supérieures et, le cas échéant, l'accessibilité financière. <br>
+             Catégorie 1 = Sur la base d'une preuve de haut niveau, il y a le consensus du NCCN est uniforme sur le fait que l'intervention est appropriée. <br>
+             a-Pembrolizumab + paclitaxel lié à l'albumine, paclitaxel, ou gemcitabine et carboplatine (catégorie 1 et préférée) en tant que option de traitement de première 
+             ligne pour certains patients atteints de TNBC AVANCÉ.1 <br>
+             b- Bien que les données disponibles concernent le traitement de première ligne, ce schéma thérapeutique peut être utilisé pour le traitement de deuxième ligne et 
+             les lignes suivantes. peut être utilisé pour la deuxième ligne de traitement et les lignes suivantes si un traitement par inhibiteur du récepteur PD-1 (PD-1) /PD-L1 
+             n'a pas été utilisé auparavant. En cas de progression de la maladie sous inhibiteur PD-1/PD-L1, il n'y a pas de données permettant de justifier une ligne de 
+             traitement supplémentaire avec un autre un autre inhibiteur de PD-1/PD-L1.<br>
+             Le NCCN ne donne aucune garantie de quelque nature que ce soit concernant leur contenu, leur utilisation ou leur application et décline toute responsabilité pour 
+             leur application ou leur utilisation de quelque manière que ce soit.<br>
+             1L=première ligne ; nab-paclitaxel=paclitaxel lié à l'albumine</p>
+            
+
+            <p style="margin-top:3vw; color:rgb(88,89,91); font-size: 2.1vw; font-weight: 300;">
+                1. NCCN Guidelines for Breast Cancer (Version 4.2022).  <br>
+                <a style="text-decoration:none; color:rgb(88,89,91); text-align: justify; font-size: 2.1vw;" href="http://www.nccn.org/professionals/physician_gls/pdf/breast.pdf"> http://www.nccn.org/professionals/physician_gls/pdf/breast.pdf. Accessed JUNE 21, 2022 </a>.
+            </p>
+
+            <p style="color: rgb(0,113,55); font-size: 2.3vw;"> Mentions légales réduites </p>
+
+            <p style="color:rgb(88,89,91); text-align: justify; font-size: 1.8vw; font-weight: 300;">
+                Contre-indications : Hypersensibilité à la substance active, L-histidine , Chlorhydrate de L-histidine monohydraté, 
+                18 ans n’ont pas été établies, sauf pour les patients pédiatriques atteints d’un LHc. Indications : Mélanome ; 
+                KEYTRUDA est indiqué en monothérapie dans le traitement des patients adultes atteints d’un mélanome avancé 
+                (non résécable ou métastatique). KEYTRUDA est indiqué en monothérapie dans le traitement adjuvant des 
+                patients adultes atteints d’un mélanome de stade III avec atteinte ganglionnaire, ayant eu une résection complète. 
+                Cancer bronchique non à petites cellules ; KEYTRUDA est indiqué en monothérapie dans le traitement de 
+                première ligne des patients adultes atteints d’un cancer bronchique non à petites cellules métastatique dont les 
+                tumeurs expriment PD-L1 avec un score de proportion tumorale (TPS) ≥ 50 %, sans mutations tumorales d’EGFR 
+                ou d’ALK. KEYTRUDA, en association à une chimiothérapie pemetrexed et sel de platine, est indiqué dans le 
+                traitement de première ligne des patients adultes atteints de cancer bronchique non à petites cellules métastatique 
+                non-épidermoïde dont les tumeurs ne présentent pas de mutations d’EGFR ou d’ALK. KEYTRUDA, en association 
+                au carboplatine et au paclitaxel ou au nab-paclitaxel, est indiqué dans le traitement de première ligne des patients 
+                adultes atteints de cancer bronchique non à petites cellules métastatique épidermoïde. KEYTRUDA est indiqué en 
+                monothérapie dans le traitement des patients adultes atteints de cancer bronchique non à petites cellules 
+                localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS ≥ 1 %, et ayant reçu au moins 
+                une chimiothérapie antérieure. Les patients présentant des mutations tumorales d’EGFR ou d’ALK doivent 
+                également avoir reçu une thérapie ciblée avant de recevoir KEYTRUDA. Lymphome de Hodgkin classique (LHc); 
+                KEYTRUDA est indiqué en monothérapie dans le traitement des patients adultes et pédiatriques âgés de 3 ans et 
+                plus atteints d’un lymphome de Hodgkin classique en rechute ou réfractaire après échec d’une greffe de cellules 
+                souches (GCS) autologue ou après au moins deux lignes de traitement antérieures lorsque la GCS autologue n’est 
+                pas une option de traitement. Carcinome urothélial ; KEYTRUDA est indiqué en monothérapie dans le traitement 
+                des patients adultes atteints d’un carcinome urothélial localement avancé ou métastatique ayant reçu une 
+                chimiothérapie antérieure à base de sels de platine. KEYTRUDA est indiqué en monothérapie dans le traitement 
+                des patients adultes atteints d’un carcinome urothélial localement avancé ou métastatique inéligibles à une 
+                chimiothérapie à base de cisplatine et dont les tumeurs expriment PD-L1 avec un score positif combiné (CPS) ≥ 
+                10. Carcinome épidermoïde de la tête et du cou (CETEC) ; KEYTRUDA est indiqué en monothérapie ou en 
+                association à une chimiothérapie à base de sels de platine et de 5-fluorouracile (5-FU) dans le traitement de 
+                première ligne des patients adultes atteints d’un carcinome épidermoïde de la tête et du cou métastatique ou 
+                récidivant non résécable dont les tumeurs expriment PD-L1 avec un CPS ≥ 1. KEYTRUDA est indiqué en 
+                monothérapie dans le traitement des patients adultes atteints d’un carcinome épidermoïde de la tête et du cou 
+                récidivant ou métastatique dont les tumeurs expriment PD-L1 avec un TPS ≥ 50 % et en progression pendant ou 
+                après une chimiothérapie à base de sels de platine. Carcinome à cellules rénales (CCR); KEYTRUDA, en 
+                association à l’axitinib, est indiqué dans le traitement de première ligne des patients adultes atteints d’un 
+                carcinome à cellules rénales avancé. KEYTRUDA, en association au lenvatinib, est indiqué dans le traitement de 
+                première ligne des patients adultes atteints d’un carcinome à cellules rénales avancé. Cancer colorectal ; 
+                KEYTRUDA est indiqué en monothérapie dans le traitement de première ligne des patients adultes atteints d’un 
+                cancer colorectal métastatique avec une instabilité microsatellitaire élevée (MSI-H) ou une déficience du système 
+                de réparation des mésappariements de l’ADN (dMMR). Cancer de l'oesophage ; KEYTRUDA, en association à 
+                une chimiothérapie à base de sels de platine et de fluoropyrimidine, est indiqué dans le traitement de première 
+                ligne des patients adultes atteints d'un cancer de l'oesophage ou d'un adénocarcinome de la jonction 
+                gastro-oesophagienne HER-2 négatif, localement avancés non résécables ou métastatiques, dont les tumeurs 
+                expriment PD-L1 avec un CPS ≥ 10. Cancer du sein triple négatif (CSTN); KEYTRUDA, en association à une 
+                chimiothérapie, est indiqué dans le traitement des patients adultes atteints d’un cancer du sein triple négatif 
+                localement récurrent non résécable ou métastatique, dont les tumeurs expriment PD-L1 avec un CPS ≥ 10 et qui 
+                n'ont pas reçu de chimiothérapie antérieure pour la maladie métastatique. Cancer de l’endomètre (CE); 
+                KEYTRUDA, en association au lenvatinib, est indiqué dans le traitement des patientes adultes atteintes d’un 
+                cancer de l’endomètre avancé ou récidivant, dont la maladie progresse pendant ou après un traitement antérieur 
+                à base de sels de platine reçu quel que soit le stade et qui ne sont pas éligibles à une chirurgie curative ou à une 
+                radiothérapie. Dosage : La dose recommandée de KEYTRUDA chez les adultes est soit de 200 mg toutes les 3 
+                semaines, soit de 400 mg toutes les 6 semaines, administrée en perfusion intraveineuse pendant 30 minutes. La 
+                dose recommandée de KEYTRUDA en monothérapie chez les patients pédiatriques âgés de 3 ans et plus atteints 
+                d’un LHc est de 2 mg/kg de poids corporel (jusqu’à un maximum de 200 mg) toutes les 3 semaines, administrée 
+                en perfusion intraveineuse pendant 30 minutes.
+            </p>
+
+            <p style="color:rgb(88,89,91); font-size: 1.8vw; font-weight: 300;"> Pour tout complément d’information, veuillez consulter les mentions légales complètes. </p>
+        </div>
+
+
+        <footer style="margin-top: 10vw; display: flex; justify-content: space-between;">
+            <div>
+                <p style="color: rgb(88,89,91); font-size: 1.5vw;">Pour toutes demandes d’informations supplémentaires <br>
+                    ou pour toutes questions sur le KEYTRUDA®, contacter : <br>
+                    E-mail : dpoc_fa@merck.com Tél : +212 522 423 223 <br>
+                    Pharmacovigilance Maroc : <br>
+                    E-mail : morocco.pharmacovigilance@merck.com Tél : +212 522 423 244 <br>
+                    Copyright © 2022 Merck et Co., Inc., Rahway, NJ, États-Unis <br>
+                    et ses sociétés affiliées. Tous les droits sont réservés.</p>
+            </div>
+            <div style="display: flex; flex-direction: column; justify-content: space-around;">
+                <img style="margin-top:4vw; width: 20vw; align-self: flex-end;" src="Images/logo_MSD_HI.ASSET-18002507.png" alt="Image">
+                <div style="display: flex; justify-content: space-between; color: rgb(88,89,91); font-size: 1.5vw;">
+                    <p>PP-KEY-00000</p>
+                    <p>00/00/0000</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
